@@ -1,0 +1,35 @@
+.forward {}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bellota:wght@700&family=DM+Sans:wght@400;500&display=swap');
+@import "style.css";
+
+.fwd {
+    margin-top: 6vh;
+    background-color: rgba(10, 10, 10, 0.4);
+    ;
+    border: 1.5px solid;
+    border-radius: 13px;
+    height: 10vh;
+    border-color: rgba(150, 150, 150, 0.6);
+    width: 30vw;
+    color: silver;
+    font-family: "DM Sans";
+    opacity: 1.0;
+    font-size: 3.5vmin;
+}
+
+.fwd:hover {
+    -webkit-transition: all 0.2s ease-in;
+    margin-top: 6vh;
+    background-color: rgba(10, 10, 10, 0.7);
+    ;
+    border: 1px solid;
+    border-color: darkgoldenrod;
+    border-radius: 13px;
+    height: 10vh;
+    border-color: rgba(150, 150, 150, 0.6);
+    width: 30vw;
+    color: darkgoldenrod;
+    font-family: "DM Sans";
+    opacity: 1.0;
+    font-size: 3.5vmin;
+}

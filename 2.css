@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bellota:wght@700&family=DM+Sans:wght@400;500&display=swap');
+@import "style.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.movs {
+    width: 150px;
+    height: 220px;
+    border: 2px solid black;
+
+}
+
+.container {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 5px 5px;
+
+
+}
+
+h4 {
+    color: white;
+    font-family: arial narrow;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1.0);
+    border-color: #66afe9;
+    animation: wiggle 2s ease;
+    animation-iteration-count: 1;
+}
+
+.topnav {
+
+    overflow: hidden;
+    background-color: rgba(50, 50, 50, 0.6);
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: DM Sans;
+
+
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: silver;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(255,0,0, 0.6);
+}
+
+.topnav a.active {
+    background-color: maroon;
+    color: white;
+}
+
+.image {
+
+    width: 160px;
+    background: #000;
+    position: relative;
+    background-size: cover;
+}
+
+.overlay {
+    height: 200px;
+    width: 160px;
+    background: #eee;
+    /*display: none;*/
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+
+}
+
+.btn1,
+.btn2 {
+    height: 30px;
+    width: 70px;
+    background: #fff;
+    opacity: 0;
+
+    /*display: none;*/
+    /*position: absolute;*/
+}
+
+.btn1 {
+    margin-top: 90px;
+    margin-left: 10px;
+    color: black;
+    float: left;
+    -webkit-transition: all 0.4s ease-in;
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+
+}
+
+.btn2 {
+    margin-top: 90px;
+    margin-right: 10px;
+    float: right;
+    -webkit-transition: all 0.4s ease-in;
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+}
+
+.image:hover .overlay {
+    /*display: inline;*/
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.95; 
+    transform: rotateX(360deg);
+    transition: .5s;
+    z-index: 3; 
+}
+
+.image:hover .btn1 {
+    /*display: inline;*/
+    background:black;
+    opacity: 1;
+}
+
+.image:hover .btn2 {
+    /*display: inline;*/
+    background:#3f0000;
+    opacity: 1;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.btn1 a:hover {
+  color: #fdec6e;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+  
+
+.btn2 a:hover {
+  color: #fdec6e;
+  text-shadow:0px 0px 60px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.movie_title {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 35px;
+    font-family: DM Sans;
+    color: silver;
+    margin-bottom: 10px;
+    color: white;
+    animation: neon 3s infinite;
+}
+
+.bk_inf {
+    display: inline-block;
+    font-family: 'Fredoka One', cursive;
+    font-style: bold;
+    margin-top: 3px;
+    margin-left: 14px;
+    color: White;
+}
+
+.bkmov {
+    display: inline;
+    align-content: center;
+}

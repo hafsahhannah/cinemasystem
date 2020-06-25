@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bellota:wght@700&family=DM+Sans:wght@400;500&display=swap');
+
+.frame {
+    border: 1px solid silver;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 40%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin-left: 6.5%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn2 {
+    margin-right: 45px;
+}
+
+#no_bk {
+    text-align: center;
+    font-family: DM Sans, sans-serif;
+    color: silver;
+    font-size: 80px;
+    margin-top: 12%;
+}
+
+.tk_details {
+    margin-right: 20%;
+    margin-top: 0vh;
+    float: right;
+    color: silver;
+    font-family: DM Sans, sans-serif;
+    font-size: 1.5vmax;
+    line-height: 3vh;
+    text-align: left;
+}
+
+.card {
+    height: 15vh;
+    margin-top: 5%;
+    float: left;
+}
+
+#ticketid {
+    color: silver;
+    font-family: DM Sans, sans-serif;
+    margin-left: 30%;
+    font-size: 0.8vmax;
+}
+
+.cancelbtn {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 5%;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: silver;
+    font-family: DM Sans, sans-serif;
+}
+
+.cancelbtn:hover {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 5%;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: gold;
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+}
